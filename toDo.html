@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="css/toDo.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>toDo List</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="head">
+            <div class="title">ToDo </div>
+            <p class="subtitle">Cписок задач на сегодня</p>
+        </div>
+        <div class="task_list_items">
+            <ul class="tasklist">
+                <!-- <li class="emptyList task_list_item ">
+                    <img class="leaf" src="img/leaf.svg" width="50px" alt="">
+                    <div class=" empty-list_title">Список дел пуст</div>
+                </li> -->
+                <!-- <li class="task_list_item additional done">
+                    <span class="task_title "> Купить молоко</span>
+                    <div class="task_list_buttons">
+                        <button data-action='done' class="btn_action">
+                            <img src="img/tick.svg" alt="" width="18" height="18">
+                        </button>
+                        <button data-actiom='delete' class="btn_action">
+                            <img src="img/cross.svg" alt="" width="18" height="18">
+                        </button>
+                    </div>
+                </li> -->
+
+            </ul>
+        </div>
+    </div>
+
+    <div class="container">
+        <section class="new_task">
+
+            <div class="new_task_title">Добавить новую задачу</div>
+            <div class="card">
+                <form id="form">
+                    <div class="form_group">
+                        <input class="input_form" type="text" placeholder="Текст задачи">
+                        <small>Что делаем, сколько времени тратим, какой результат получаем.</small>
+                    </div>
+                    <button class="btn_add" type="submit">Добавить</button>
+                </form>
+            </div>
+
+        </section>
+    </div>
+    <script src="js/toDo.js"></script>
+</body>
+
+</html>
